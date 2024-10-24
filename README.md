@@ -33,23 +33,28 @@
 
 <br>
 <h1>Instalação</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:</p>
+<p>Para rodar esse projeto em sua maquina local, basta seguir o passo abaixo:</p>
 
 ```
+git clone
 npm install
+npm run start
 ```
 <br>
 
 
 <h1>Minhas anotações</h1>
 
-## 📫 Como inserir Typescript no projeto
+## 📫 Como iniciar seu projeto em node e inserir Typescript no projeto
 
 Para adicionar typescript ao seu projeto, siga estas etapas:
 
 1. Instale  `npm install -D typescript`.
-1. Instale  `npm install -D ts-node`.
-1. Rode  `npm run start`.
+2. Instale  `npm install -D ts-node`.
+3. `npx tsc --init`.
+4. No arquivo tsconfig.json, descomentar o outDir e colocar "./dist"
+5. No arquivo package.json em scripts,`"start":"ts-node ./teste.ts"`
+6. Rode  `npm start`.
 
 
 ## 📫 Cria um arquivo de configuração chamado ts.config
