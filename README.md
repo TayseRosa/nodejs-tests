@@ -55,6 +55,7 @@ Para adicionar typescript ao seu projeto, siga estas etapas:
 4. No arquivo tsconfig.json, descomentar o outDir e colocar "./dist"
 5. No arquivo package.json em scripts,`"start":"ts-node ./teste.ts"`
 6. Rode  `npm start`.
+7. Para dar o build no final do projeto: `npx tsc`, ele vai criar a pasta ./dist.
 
 
 <br>
