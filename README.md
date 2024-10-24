@@ -55,7 +55,10 @@ Para adicionar typescript ao seu projeto, siga estas etapas:
 5. No arquivo package.json em scripts,`"start":"ts-node ./teste.ts"`
 6. Rode  `npm start`.
 7. Para dar o build no final do projeto: `npx tsc`, ele vai criar a pasta ./dist.
-
+---
+Modo Watch, siga estas etapas:
+1. Instale  `node --watch src/outro.js`.
+2. Instale  `npm install -D ts-node`.
 
 <br>
 
