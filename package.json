@@ -2,13 +2,14 @@
   "name": "b7",
   "version": "1.0.0",
   "description": "",
-  "main": "teste.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "node --import=tsx --watch src/outro.ts"
+    "start": "node --import=tsx --watch src/server.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.7.9",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3"

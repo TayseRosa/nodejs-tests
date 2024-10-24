@@ -52,14 +52,14 @@ Para adicionar typescript ao seu projeto, siga estas etapas:
 2. Instale  `npm install -D ts-node`.
 3. `npx tsc --init`.
 4. No arquivo tsconfig.json, descomentar o outDir e colocar "./dist"
-5. No arquivo package.json em scripts,`"start":"ts-node ./teste.ts"`
+5. No arquivo package.json em scripts,`"start":"ts-node ./server.ts"`
 6. Rode  `npm start`.
 7. Para dar o build no final do projeto: `npx tsc`, ele vai criar a pasta ./dist.
 ---
 Modo Watch, siga estas etapas:
-1. No prompt digite, e ele ficara monitorando as alterações  `node --watch src/outro.js`.
+1. No prompt digite, e ele ficara monitorando as alterações  `node --watch src/server.js`.
 2. No prompt digite:  `npm i -D tsx`. 
-3. Em package.json > scrips > start: `node --import=tsx --watch src/outro.ts`
+3. Em package.json > scrips > start: `node --import=tsx --watch src/server.ts`
 ---
 ## 📫Uso de variáveis de ambiente
 ```
@@ -68,7 +68,7 @@ Arquivo .env
 Arquivo .env.development
 Arquivo .env.production
 Arquivo .env.local
-Arquivo .env.examplew
+Arquivo .env.example
 ```
 <br>
 
