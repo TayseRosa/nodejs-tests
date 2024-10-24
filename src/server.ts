@@ -1,9 +1,11 @@
-import { createServer } from "node:http"
+import express from 'express'
 
-const server = createServer((req, res)=>{
-    res.end("Ola mundo! | Hello World!");
+const server = express();
+
+server.get('/', (req, res)=>{
+    res.send('Olá mundo de novo | Hello World again')
 })
 
 server.listen(3000, ()=>{
-    console.log('Servidor funcionando...')
+    console.log("Servidor rodando na porta 3000")
 })
