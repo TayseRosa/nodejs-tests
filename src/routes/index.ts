@@ -1,8 +1,17 @@
-import express from 'express'
+import express, { RequestHandler } from 'express'
+import produtosRouter from './produtos'
 
 const router = express.Router();
 
-router.get('/ping', ( req, res )=>{
+const meuMidleware:RequestHandler = (req, res, next)=>{
+    console.log('middleware executou')
+    next();//Pode prosseguir
+}
+
+router.use('/produtos', produtosRouter)
+
+router.get('/ping', meuMidleware, ( req, res )=>{
+    console.log('Executou o ping')
     res.json({ pong:true })
 })
 
