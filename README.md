@@ -42,8 +42,7 @@ npm run start
 ```
 <br>
 
-
-<h1>Minhas anotações sobre o curso NodeJS</h1>
+<h1>Minhas anotações sobre o curso NodeJS.</h1>
 
 ## 📫 Como iniciar seu projeto em node e inserir Typescript no projeto
 
