@@ -57,9 +57,17 @@ Para adicionar typescript ao seu projeto, siga estas etapas:
 7. Para dar o build no final do projeto: `npx tsc`, ele vai criar a pasta ./dist.
 ---
 Modo Watch, siga estas etapas:
-1. Instale  `node --watch src/outro.js`.
-2. Instale  `npm install -D ts-node`.
-
+1. No prompt digite, e ele ficara monitorando as alterações  `node --watch src/outro.js`.
+2. No prompt digite:  `npm i -D tsx`. 
+3. Em package.json > scrips > start: `node --import=tsx --watch src/outro.ts`
+---
+## 📫Uso de variáveis de ambiente
+5 principais tipos de arquivo de ambiente:
+Arquivo .env
+Arquivo .env.development
+Arquivo .env.production
+Arquivo .env.local
+Arquivo .env.example
 <br>
 
 <h1>Licença</h1>
