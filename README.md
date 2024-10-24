@@ -48,7 +48,13 @@ npm install
 Para adicionar typescript ao seu projeto, siga estas etapas:
 
 1. Instale  `npm install -D typescript`.
+1. Instale  `npm install -D ts-node`.
+1. Rode  `npm run start`.
 
+
+## 📫 Cria um arquivo de configuração chamado ts.config
+
+npx tsc --init
 <br>
 
 <h1>Roadmap</h1>
