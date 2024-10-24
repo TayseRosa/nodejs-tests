@@ -15,7 +15,7 @@
 
 <ul>
     <li>Configuração do servidor do zero com Node.js</li>
-    <li>Criação de rotas HTTP para atender diferentes endpoints</li>
+    <li>Criação de rotas no express para atender diferentes endpoints</li>
     <li>Integração com um banco de dados (ex: MongoDB ou MySQL) para persistência de dados</li>
     <li>Implementação de middlewares para tratamento de erros e validação
 </li>
@@ -90,6 +90,9 @@ server.listen(3000, ()=>{
     console.log("Servidor rodando na porta 3000")
 })
 ```
+Instalar a lib Helmet(adiciona uma camada extra de proteção ao servidor):
+1. Instale  `npm i helmet`.
+
 
 <br>
 
