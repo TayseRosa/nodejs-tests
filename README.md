@@ -62,12 +62,14 @@ Modo Watch, siga estas etapas:
 3. Em package.json > scrips > start: `node --import=tsx --watch src/outro.ts`
 ---
 ## 📫Uso de variáveis de ambiente
+```
 5 principais tipos de arquivo de ambiente:
 Arquivo .env
 Arquivo .env.development
 Arquivo .env.production
 Arquivo .env.local
 Arquivo .env.example
+```
 <br>
 
 <h1>Licença</h1>
