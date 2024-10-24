@@ -57,28 +57,9 @@ Para adicionar typescript ao seu projeto, siga estas etapas:
 6. Rode  `npm start`.
 
 
-## 📫 Cria um arquivo de configuração chamado ts.config
-
-npx tsc --init
-<br>
-
-<h1>Roadmap</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry:</p>
-
-- [x] Lorem Ipsum is simply dummy
-- [x] Lorem Ipsum is simply dummy
-- [x] Lorem Ipsum is simply dummy
-- [x] Lorem Ipsum is simply dummy
-- [ ] Lorem Ipsum is simply dummy
-- [ ] Lorem Ipsum is simply dummy
-- [ ] Lorem Ipsum is simply dummy
-- [ ] Lorem Ipsum is simply dummy
-
-
-
 <br>
 
 <h1>Licença</h1>
 <p>Esse projeto está sob a licença MIT.</p>
 <br>
-<p align="center">Feito com ❤️ por Tayse Rosa</p>
+<p align="center">Feito com 💜 por Tayse Rosa</p>
