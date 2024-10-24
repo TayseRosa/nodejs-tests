@@ -68,7 +68,7 @@ Arquivo .env
 Arquivo .env.development
 Arquivo .env.production
 Arquivo .env.local
-Arquivo .env.example
+Arquivo .env.examplew
 ```
 <br>
 
